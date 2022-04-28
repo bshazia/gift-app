@@ -1,0 +1,58 @@
+.containerform,
+.containerlogin {
+    padding: 24px;
+    position: relative;
+    width: 40%;
+    height: 60%;
+    left: 4%;
+    top: 0%;
+    background: #ffffff;
+    border: 1px solid rgba(108, 151, 190, 0.56);
+    box-shadow: 0px 4px 30px 22px rgba(112, 182, 247, 0.48);
+    border-radius: 60px;
+    text-align: center;
+}
+
+.frontpage {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.login-main {
+    margin-bottom: 20%;
+    margin-top: 0%;
+}
+
+.frontpageimg {
+    margin-left: 5%;
+    width: 30%;
+}
+
+.logo-main {
+    width: 22%;
+    margin-left: 18%;
+}
+
+.iconlinks {
+    padding-top: 12%;
+    padding-left: 10%;
+}
+
+.containerlogin {
+    left: 20%;
+    /* margin-top: 12%; */
+    width: 60%;
+    height: 550px;
+}
+
+.login-main {
+    margin-bottom: 20%;
+    margin-top: 0%;
+}
+
+.frontpageimg {
+    margin-left: 5%;
+    width: 45%;
+    max-width: 55%;
+}
