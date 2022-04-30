@@ -1,7 +1,7 @@
 import './App.css';
 import Login from './components/Login';
 import Form from './components/Form';
-import Calender from './components/Calender';
+import Calender from './components/calnder/Calender';
 import Addperson from './components/AddPerson';
 
 import Footer from './components/Footer';
@@ -12,6 +12,7 @@ import Header from './components/Header/Header';
 import Homebox from './components/Homebox';
 
 
+
 function App() {
     return ( <
         div >
@@ -19,6 +20,7 @@ function App() {
         <
         Header /
         >
+
         <
         Calender / >
         <

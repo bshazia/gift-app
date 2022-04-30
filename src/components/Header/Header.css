@@ -6,7 +6,16 @@
 .nav-links {
     color: black;
     text-decoration: none;
-    margin-inline: 30px;
+    margin-inline: 60px;
     font-size: large;
     font-weight: 700;
+}
+
+.user-name {
+    color: black;
+    text-decoration: none;
+    margin-inline: 50px;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 50%;
 }

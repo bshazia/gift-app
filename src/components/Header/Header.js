@@ -7,6 +7,7 @@ import logo from './logo.png';
 
 
 function Header() {
+    const isLoggedIn = false
     return ( <
         div >
 
@@ -21,23 +22,24 @@ function Header() {
         <
         li class = "nav-item " >
         <
-        a class = "nav-link nav-links"
+        a class = " nav-links"
         href = "#" > Add < /a> < /
         li > <
         li class = "nav-item" >
         <
-        a class = "nav-link nav-links"
+        a class = "nav-links"
         href = "#" > Calendar < /a> < /
         li > <
         li class = "nav-item" >
         <
-        a class = "nav-link nav-links"
+        a class = " nav-links"
         href = "#" > settings < /a> < /
         li > <
         /ul> < /
         div > <
-        div >
-        hello, jhon <
+        div class = ' user-name' >
+        // Hello  isLoggedIn && 'jhon'  is same 
+        Hello { isLoggedIn ? 'jhon' : 'Guest' } <
         /div> < /
         nav > < /
         div >

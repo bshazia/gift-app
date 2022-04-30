@@ -22,13 +22,10 @@ const AddEvent = () => ( <
     placeholder = 'select event' >
 
     <
-    option value = "birthday" > birthday < /option> <
-    option value = "Anniversery" > Anniversery < /option> <
-    option value = "custemize" > custmize < /option>
+    option value = "birthday" > birthday < /option> <option value = "Anniversery" > Anniversery </option > < option value = "custemize" > custmize < /option>
 
     <
-    /select> <
-    input type = "date"
+    /select> <input type = "date"
     placeholder = "Date of Birth"
     name = "dob"
     required / >
@@ -38,19 +35,15 @@ const AddEvent = () => ( <
 
     <
     button type = 'button'
-    className = "loginbtn" > Back < /button>  <
-    br / >
+    className = "loginbtn" > Back < /button>  <br/ >
 
 
 
     <
-    /
-    div >
+    /div>
 
     <
-    /div> < /
-    form > < /
-    div >
+    /div> </form > < /div>
 
 
 
