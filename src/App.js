@@ -12,7 +12,6 @@ import Header from './components/Header/Header';
 import Homebox from './components/Homebox';
 
 
-
 function App() {
     return ( <
         div >
@@ -22,7 +21,7 @@ function App() {
         >
 
         <
-        Calender / >
+        Form / >
         <
         Footer / >
         <

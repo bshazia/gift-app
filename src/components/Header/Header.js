@@ -38,7 +38,7 @@ function Header() {
         /ul> < /
         div > <
         div class = ' user-name' >
-        // Hello  isLoggedIn && 'jhon'  is same 
+
         Hello { isLoggedIn ? 'jhon' : 'Guest' } <
         /div> < /
         nav > < /
