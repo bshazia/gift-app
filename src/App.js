@@ -13,20 +13,15 @@ import Homebox from './components/Homebox';
 
 
 function App() {
-    return ( <
-        div >
+    return (
+        <div>
 
-        <
-        Header /
-        >
 
-        <
-        Form / >
-        <
-        Footer / >
-        <
-        /
-        div >
+        <Header />
+        <Calender />
+        <Footer />
+
+        </div>
 
     );
 }

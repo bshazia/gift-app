@@ -5,13 +5,10 @@ import './Calnder.css';
 
 function Calender() {
     const [value, onChange] = useState(new Date());
-    return ( <
-        div class = ' calender-box' >
-        <
-        Calendar onChange = { onChange }
-        value = { value }
-        /> < /
-        div >
+    return ( 
+    <div class = ' calender-box' >
+            <Calendar onChange={onChange} value={value} />
+        </div>
     );
 }
 
