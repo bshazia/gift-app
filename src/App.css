@@ -82,3 +82,18 @@ a {
     color: black;
     font-size: smaller;
 }
+
+.season-box {
+    position: absolute;
+    width: 30%;
+    left: 68%;
+    top: 30%;
+    background: #ffffff;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.qoute {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}

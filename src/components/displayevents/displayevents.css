@@ -1,0 +1,27 @@
+.container-box {
+    left: 1%;
+    width: 300px;
+    background: #9ae5f4;
+    box-shadow: 0px 4px 30px 22px rgba(112, 182, 247, 0.48);
+    border-radius: 1px;
+    padding: 4%;
+    height: 80%;
+}
+
+.box {
+    background: hsl(188, 61%, 54%);
+    border: 1px solid rgba(30, 211, 224, 0.56);
+    border-radius: 15px;
+    margin: 2px;
+    align-content: center;
+    font-size: medium;
+    text-align: center;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.weather {
+    background: hsl(187, 18%, 91%);
+    margin: 4px;
+    margin-bottom: 30px;
+}

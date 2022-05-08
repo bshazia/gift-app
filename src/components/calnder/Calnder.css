@@ -1,11 +1,10 @@
 .calender-box {
     position: absolute;
-    height: auto;
-    width: 60%;
-    left: 15%;
-    top: 20%;
+    height: 300px;
+    width: 45%;
+    left: 23%;
+    top: 29%;
     background: #ffffff;
     border: 1px solid rgba(108, 151, 190, 0.56);
-    box-shadow: 0px 4px 30px 22px rgba(112, 182, 247, 0.48);
-    text-align: center;
+    line-height: normal;
 }

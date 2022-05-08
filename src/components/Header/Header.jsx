@@ -8,29 +8,37 @@ import logo from './logo.png';
 
 function Header() {
     const isLoggedIn = true
-    
-    return (
-        <div >
+
+    return ( <
+        div >
 
 
 
-               <nav class = "navbar navbar-expand-sm color-nav" >
-                   <div >
-                       <ul class = "navbar-nav" >
-                           <li class = "nav-item " >
-                               <a class = " nav-links"href = "#" > Add </a> </li>
-                           <li class = "nav-item" >
-                                  <a class="nav-links" href="#" > Calendar </a> </li>
-                            <li class = "nav-item" >
-                                 <a class=" nav-links" href="#" > settings </a> </li>
-                    </ul>
-                </div>
-            <div class = ' user-name' >
+        <
+        nav class = "navbar navbar-expand-sm color-nav" >
+        <
+        div >
+        <
+        ul class = "navbar-nav" >
+        <
+        li class = "nav-item " >
+         <
+        a class = " nav-links"
+        href = "AddEvent.jsx" > Add < /a> </li >
+        <
+        li class = "nav-item" >
+        <
+        a class = "nav-links"
+        href = "#" > Calendar < /a> </li >
+        <
+        li class = "nav-item" >
+        <
+        a class = " nav-links"
+        href = "#" > settings < /a> </li >
+        <
+        /ul> </div > < div class = ' user-name' >
 
-                Hello {isLoggedIn ? 'jhon' : 'Guest'}
-                </div>
-            </nav>
-        </div>
+        Hello { isLoggedIn ? 'jhon' : 'Guest' } < /div> </nav > < /div>
     )
 }
 

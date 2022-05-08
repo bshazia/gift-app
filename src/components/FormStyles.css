@@ -3,9 +3,7 @@
     padding: 24px;
     position: relative;
     width: 40%;
-    height: 60%;
-    left: 4%;
-    top: 0%;
+    left: 55%;
     background: #ffffff;
     border: 1px solid rgba(108, 151, 190, 0.56);
     box-shadow: 0px 4px 30px 22px rgba(112, 182, 247, 0.48);
@@ -21,7 +19,7 @@
 
 .login-main {
     margin-bottom: 20%;
-    margin-top: 0%;
+    margin-top: 6%;
 }
 
 .frontpageimg {
@@ -37,18 +35,6 @@
 .iconlinks {
     padding-top: 12%;
     padding-left: 10%;
-}
-
-.containerlogin {
-    left: 20%;
-    /* margin-top: 12%; */
-    width: 60%;
-    height: 550px;
-}
-
-.login-main {
-    margin-bottom: 20%;
-    margin-top: 0%;
 }
 
 .frontpageimg {
