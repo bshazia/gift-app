@@ -1,44 +1,46 @@
 import React from 'react';
-import './Header.css';
+
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar } from 'react'
-import { Calendar } from 'react-calendar';
-import logo from './logo.png';
+import Logo from './logo.png';
+
+
+import { Nav, NavLink, NavMenu } from "./NavbarElements";
+
 
 
 function Header() {
     const isLoggedIn = true
 
-    return ( <
-        div >
+    return ( < >
+        <
+        Nav >
+        <
+        img src = { Logo }
+        alt = "Logo"
 
-
-
+        /
+        >
         <
-        nav class = "navbar navbar-expand-sm color-nav" >
+        NavMenu >
         <
-        div >
-        <
-        ul class = "navbar-nav" >
-        <
-        li class = "nav-item " >
-         <
-        a class = " nav-links"
-        href = "AddEvent.jsx" > Add < /a> </li >
-        <
-        li class = "nav-item" >
-        <
-        a class = "nav-links"
-        href = "#" > Calendar < /a> </li >
-        <
-        li class = "nav-item" >
-        <
-        a class = " nav-links"
-        href = "#" > settings < /a> </li >
-        <
-        /ul> </div > < div class = ' user-name' >
-
-        Hello { isLoggedIn ? 'jhon' : 'Guest' } < /div> </nav > < /div>
+        NavLink to = "/DashboardPage"
+        activeStyle >
+        DashboardPage <
+        /NavLink> <
+        NavLink to = "/AddEvent"
+        activeStyle >
+        AddEvent <
+        /NavLink> <
+        NavLink to = "/AddPerson"
+        activeStyle >
+        Addperson <
+        /NavLink> <
+        NavLink to = "/Login"
+        activeStyle >
+        Login <
+        /NavLink>  < /
+        NavMenu > <
+        /Nav> < / >
     )
 }
 

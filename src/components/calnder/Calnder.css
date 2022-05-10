@@ -1,6 +1,5 @@
 .calender-box {
     position: absolute;
-    height: 300px;
     width: 45%;
     left: 23%;
     top: 29%;
@@ -8,3 +7,21 @@
     border: 1px solid rgba(108, 151, 190, 0.56);
     line-height: normal;
 }
+
+.react-calendar {
+    background-color: #d1f2fa;
+    border: 0px;
+    line-height: 2.50em;
+    font-size: large;
+    margin-top: 5%;
+}
+
+
+/* 
+.react-calendar button {
+    text-align: left;
+}
+
+.react-calendar__navigation__label {
+    text-align: center;
+} */
