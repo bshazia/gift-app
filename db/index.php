@@ -4,8 +4,8 @@
         private $hostname = "localhost";
         private $username = "root";
         private $password = "root";
-        private $database = "igiftu";
-        private $port = 3306;
+        private $database = "astrograma";
+        
         public $conn;
 
         // constructor
@@ -21,8 +21,11 @@
             if($connection == false) {
                 echo "no connection with database";
                 die();
-            }
+            }else{
+            echo " connection with database";
             return $connection;
+            }
+           
         }
 
         public function selectQuery($sql) {

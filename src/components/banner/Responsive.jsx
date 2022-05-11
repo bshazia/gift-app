@@ -1,7 +1,9 @@
 import React from 'react'
 import hapbith from '../images/hap-birthday.jpeg'
 import gitbox from '../images/baner-image.jpeg'
-import baner from '../images/banner.webp'
+import baner from '../images/baner-image.webp'
+import balon from '../images/gifts-1897236_960_720.webp'
+import sk from '../images/banner.webp'
 
 
 function Responsive() {
@@ -9,23 +11,26 @@ function Responsive() {
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" ></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
   </div>
 
-  <div class="carousel-inner">
-              <div class="carousel-item active citem">
+  <div class="carousel-inner" data-interval="1000">
+              <div class="carousel-item active citem" >
                   
       <img src={baner} alt="Los Angeles" class="d-block w-20" />
     </div>
-    <div class="carousel-item citem">
+    <div class="carousel-item citem" >
                   <img src={hapbith} alt="Chicago" class="d-block w-20" />
                  
-    </div>
-    <div class="carousel-item citem">
-      <img src={gitbox} alt="New York" class="d-block w-20"/>
-    </div>
+        </div>
+        <div class="carousel-item citem" >
+                  <img src={balon} alt="Chicago" class="d-block w-20" />
+                 
+        </div>
+        
+    
   </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">

@@ -7,7 +7,7 @@ function DisplayEvents() {
         <
         section className = 'container-events' >
         <
-        div className = 'box weather' >
+        div className = 'weather-box' >
         <
         /div> <
         h3 > Events This Month < /h3> <
@@ -19,8 +19,8 @@ function DisplayEvents() {
 
 
         <
-        /section> <
-        /main>
+        /section> < /
+        main >
     )
 }
 

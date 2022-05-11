@@ -13,7 +13,7 @@ function SeasonImage() {
         <
         div className = 'season-box' >
         <
-        h3 className = 'qoute' > strart your day with smile < /h3> <
+        h3 className = 'qoute' > start your day with smile < /h3> <
         br / >
         <
         img src = { summer }

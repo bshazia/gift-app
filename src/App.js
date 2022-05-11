@@ -12,10 +12,14 @@ import SeasonImage from './components/SeasonImage';
 import DisplayEvents from './components/displayevents/DisplayEvents';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Responsive from './components/banner/Responsive';
+import React, { useState } from "react";
+import { AppContext } from "./components/lib/contextLib";
 function App() {
+   
     return (
         <>
-           
+  
+
             <Router>
                 
     <Header />
@@ -24,11 +28,14 @@ function App() {
        
       
         <Route path='/AddEvent' element={<AddEvent/>} />
-        <Route path='/AddPerson' element={<AddPerson/>} />
+                    <Route path='/AddPerson' element={<AddPerson />} />
+                  
+                    <Route path='/Responsive' element={<Responsive/>} />
+                      <Route path='/Login' element={<Login/>} />
                 </Routes>
                
             </Router>
-            
+           
            
         </>
 

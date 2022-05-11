@@ -4,12 +4,21 @@ import instag from '../images/insta.jpeg';
 import googl from '../images/google.png';
 import page from '../images/page.png';
 import './FormStyles.css';
-
 import React from 'react'
 
 function Login() {
+
     return ( <
-        div >
+        >
+          <div class="d-flex" >
+                
+            <div class="p-2 flex-fill frontpageimg" >
+                  <img src={page} alt='page' />
+            </div>
+       
+          
+      
+       <div class="p-2 flex-fill" >
 
         <
         form className = "containerlogin login-main"
@@ -78,7 +87,8 @@ function Login() {
 
         <
         /div>
-
+                                                  </div><
+        />
     )
 }
 

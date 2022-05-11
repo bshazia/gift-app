@@ -1,5 +1,5 @@
 import logo from './images/logo.png';
-
+import Footer from './footer/Footer';
 const Addperson = () => ( <
     div >
     <
@@ -42,7 +42,9 @@ const Addperson = () => ( <
     /div>
 
     <
-    /div> </form > < /div>
+    /div> </form >
+    <
+    Footer / > < /div>
 
 
 
