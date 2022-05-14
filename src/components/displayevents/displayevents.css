@@ -17,6 +17,7 @@
     text-align: center;
     height: 50px;
     margin-top: 40px;
+
 }
 
 .weather-box {
@@ -24,4 +25,7 @@
     margin: 4px;
     margin-bottom: 100px;
     height: 90%;
+}
+h4{
+   color: #1c2c31;
 }

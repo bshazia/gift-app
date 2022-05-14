@@ -1,27 +1,21 @@
 import React from 'react';
 import './displayevents.css'
+import Weather from "./Weather";
 
 function DisplayEvents() {
-    return ( <
-        main >
-        <
-        section className = 'container-events' >
-        <
-        div className = 'weather-box' >
-        <
-        /div> <
-        h3 > Events This Month < /h3> <
-        div className = 'box' >
-
-        <
-        /div>
-
-
-
-        <
-        /section> < /
-        main >
+    return (
+        <main>
+           <section className='container-events' >
+               <div className='weather-box' >
+                   <Weather/>
+                  </div>
+                   <h4>This Week</h4>
+                        <div className='box' >
+                        </div>
+                       <div className='box' >
+                       </div>
+           </section>
+        </main>
     )
 }
-
 export default DisplayEvents

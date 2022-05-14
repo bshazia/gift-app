@@ -1,13 +1,10 @@
-element {
-    --bg-color: #437fc7;
-}
 
 body {
     margin: 0px;
     padding: 0px;
     height: 100%;
     /* spliting the background colour */
-    background: linear-gradient(to right, white 0%, rgb(91, 238, 216) 50%, rgb(176, 192, 228) 50%, rgb(69, 181, 177) 100%);
+    background: linear-gradient(to right, white 0%, rgb(141, 239, 223) 50%, rgb(141, 239, 223) 50%, rgb(69, 181, 177) 100%);
 }
 
 
@@ -15,13 +12,13 @@ body {
 
 img.logo {
     width: 35%;
-    border-radius: 20%;
+    /*border-radius: 20%;*/
 }
 
 
 /*  buttons */
 
-.loginbtn {
+.loginbtn{
     color: white;
     margin: 8px 0;
     cursor: pointer;
@@ -130,4 +127,19 @@ a {
     width: 100%;
     height: 50%;
     margin-top: 20%;
+}
+.btn-box{
+    margin-top: 20%;
+    display: flex;
+}
+.qoute ,auther{
+    margin-top: 20px;
+    color: #05396b;
+    text-decoration: #0dcaf0;
+    font-family: cursive;
+    font-size: x-large;
+    font-style: italic;
+}
+.auther{
+    text-align: left;
 }

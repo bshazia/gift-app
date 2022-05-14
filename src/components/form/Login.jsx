@@ -1,94 +1,57 @@
-import imagefa from '../images/facebook.png';
+import facebook from '../images/facebook.png';
 import logo from '../images/logo.png';
-import instag from '../images/insta.jpeg';
-import googl from '../images/google.png';
+import google from '../images/google.png';
 import page from '../images/page.png';
 import './FormStyles.css';
 import React from 'react'
 
 function Login() {
+    return (
+       <>
+           <div className = "logocontainer" >
+               <img src = { logo } alt = "Logo" className = "logo-main" />
+               <h4>Start the countdown to your special day</h4>           </div>
 
-    return ( <
-        >
-          <div class="d-flex" >
-                
-            <div class="p-2 flex-fill frontpageimg" >
-                  <img src={page} alt='page' />
+           <div class="frontpageimg" >
+                  <img src={page} alt='page' className='frontpageimg'/>
             </div>
-       
-          
-      
-       <div class="p-2 flex-fill" >
-
-        <
-        form className = "containerlogin login-main"
-
-        method = "POST" >
-
-        <
-        div className = "logocontainer" >
-        <
-        img src = { logo }
-        alt = "Logo"
-        className = "logo" / >
-        <
-        /div> <div > <
-        input type = "email"
-        placeholder = "email"
-        name = "email"
-        required / >
-        <
-        input type = "password"
-        placeholder = "Password"
-        name = "psw"
-        required / >
-
-        <
-        button type = "submit"
-        className = "loginbtn" > Login < /button> <br/ >
-        <
-        div class = "forgotdiv" >
-
-        <
-        span class = "psw" > < a href = "#" > Forgot password ? < /a></span >
-        <
-        /div> 
+        <form className = "containerlogin login-main" method = "POST" >
 
 
-        <
-        /div> <hr/ >
-        <
-        h5 > or Sign up with < /h5> <div className = "iconlinks" > <a href = "https/ / instagrame.com " > <
-        img src = { instag }
-        alt = "insta"
-        width = "10%" / >
-        <
-        /a> <a href = "https/ / facebook.com " > <
-        img src = { imagefa }
-        alt = "facebook"
-        width = "10%" / >
-        <
-        /a> <a href = "https/ / google.com " > <img src = { googl }
-        alt = "google"
-        width = "12%" / >
-        <
-        /a> </div >
-        <
-        div class = "forgotdiv" >
+        <div className = "logocontainer" >
+                 <img src = { logo } alt = "Logo" className = "logo" />
+           </div>
+            <div>
+                <p>
+                    <input type = "email" placeholder = "email" name = "email" required />
+                </p>
+                <p>
+                    <input type="password" placeholder = "Password" name = "psw" required />
+                </p>
+                      <button type="submit" className="loginbtn" > Login </button>
+                <br/>
+        <div class = "forgotdiv" >
+             <br/>
+        <span class = "psw" >
+            < a href = "#" > Forgot password ? </a>
+        </span>
+        </div>
 
+        </div>
+            <hr/>
+        <h5> or Sign up with </h5>
+            <div className = "iconlinks" >
 
+                <a href = "https//facebook.com">
+                    <img src = {facebook} alt = "facebook" width = "16%%" />
 
-
-        <
-        span class = "psw" > < /span> </div >
-
-        <
-        /form> 
-
-        <
-        /div>
-                                                  </div><
-        />
+                           </a>
+                <a href = "https//google.com" >
+                    <img src = {google} alt = "google" width = "22%" />
+        </a>
+            </div>
+        </form>
+       </>
     )
 }
 

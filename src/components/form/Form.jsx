@@ -16,81 +16,52 @@ function Form() {
     const [email, setemail] = useState('')
      const [password ,setpassword] = useState('')
 
-
     return (
-        <
-        >
-          <div class="d-flex" >
-                
-            <div class="p-2 flex-fill frontpageimg" >
-                  <img src={page} alt='page' />
+        <div className="wrapper">
+            <div className = "logocontainer" >
+                <img src = { logo } alt = "Logo" className = "logo-main" />
+                <h4>Start the countdown to your special day</h4>
             </div>
-       
-          
-      
-       <div class="p-2 flex-fill" >
 
-       
-            <form className = "containerform login-main" action = "../db/log_in.php"
-    method = "POST" >
+            <div className="frontpageimg">
+                <img src={page} alt='page' className='frontpageimg'/>
+            </div>
 
+            <form className = "containerform login-main" action = "../db/log_in.php" method = "POST">
 
-    <div className = "logocontainer" >
-
-    <img src = { logo }
-    alt = "Logo"
-    className = "logo" />
-
-    </div> <div >
-    <input type = "text" placeholder = "Full Name" name="fullName"
-                        onChange={(e) => {
+                <header className="heder">Create Account</header>
+                    <p>
+                     <input type = "text" placeholder = "Full Name" name="fullName" onChange={(e) => {
                             setfullName(e.target.value);
-    }} required />
-    <br />
-    <input type = "email" placeholder = "email" name = "email"
-   onChange={(e) => {
+                           }} required/>
+                            </p>
+                        <p>
+                           <input type = "email" placeholder = "email" name = "email" onChange={(e) => {
                             setemail(e.target.value);
-    }}
-    required />
-    <input type = "password"
-    placeholder = "Password"
-    name = "password"
-    onChange={(e) => {
+                                        }}
+                                  required/>
+                              </p>
+                        <p>
+                            <input type = "password" placeholder = "Password" name = "password" onChange={(e) => {
                             setpassword(e.target.value);
-                        }} required />
+                                      }} required />
+                                   </p>
+                              <br/>
                     
-                    <br />
-                    
-                    <button type="submit" className="loginbtn" >
-                        Sign up
-                    </button>
-
-                    <br />
-                    
-                </div>
-                <hr />
-                <h5 > or Sign up with
-                </h5>
-                <div>
-                    <a href = "https//instagrame.com" >
-    <img src = { instag }
-    alt = "insta"
-    width = "10%" />
-    </a> <a href="https/ / facebook.com " > <
-    img src = { imagefa }
-    alt = "facebook"
-    width = "10%" / >
-    <
-    /a> <a href="https/ / google.com " > <
-    img src = { googl }
-    alt = "google"
-    width = "12%" />
+                            <button type="submit" className="loginbtn" >
+                                Sign up
+                            </button>
+                    <br/>
+                <hr/>
+                       <h5> or Sign up with </h5>
+                            <a href="https//facebook.com" >
+                                <img src = { imagefa } alt = "facebook" width = "10%" />
+                            </a>
+                            <a href="https/ / google.com " >
+                                <img src = { googl } alt = "google" width = "12%" />
                                     </a>
-                                </div>
                             </form>
-                </div>
-            </div>
-            </>
+                    </div>
     )
 }
 
